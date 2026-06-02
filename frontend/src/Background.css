@@ -1,0 +1,116 @@
+body {
+    background-image: url('../src/assets/back.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .card {
+    background-image: url('/DALL·E\ 2025-03-01\ 03.04.11\ -\ A\ soft\ pastel\ background\ with\ light\ peach\ and\ beige\ tones.\ The\ design\ should\ be\ smooth\,\ calming\,\ and\ premium\,\ creating\ an\ elegant\ and\ modern\ UI\ feel.\ .webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);              
+  }
+  .nav-title {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+ 
+
+
+
+  /* login css */
+  /* src/Login.css */
+.login-wrapper {
+  height: 100vh;
+  background: #f5f2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: linear-gradient(#ffffff, #eeeeee);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 320px;
+}
+
+.login-logo img {
+  margin-bottom: 10px;
+}
+
+.login-title {
+  font-family: 'Arial';
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.input-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+.forgot-password {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 10px 0;
+}
+
+.login-btn {
+  background: #f7b733;
+  border: none;
+  color: #fff;
+  padding: 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #f2a123;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
